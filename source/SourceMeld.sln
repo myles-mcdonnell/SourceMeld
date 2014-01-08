@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SourceMeld.Cmd", "SourceMeld.Cmd\SourceMeld.Cmd.csproj", "{FB45D9BE-DC8E-49E9-8BD1-D727AF47871D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SourceMeld", "SourceMeld\SourceMeld.csproj", "{AE26C72E-08FF-40C2-90C4-69A8D8372AF5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{193679C5-6FAA-4E40-BA7C-063CA2C293A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SourceMeld.UnitTests", "SourceMeld.UnitTests\SourceMeld.UnitTests.csproj", "{51C142E6-53C4-44AF-9294-596206B11FC1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51C142E6-53C4-44AF-9294-596206B11FC1}.Debug|x86.ActiveCfg = Debug|x86
+		{51C142E6-53C4-44AF-9294-596206B11FC1}.Debug|x86.Build.0 = Debug|x86
+		{51C142E6-53C4-44AF-9294-596206B11FC1}.Release|x86.ActiveCfg = Release|x86
+		{51C142E6-53C4-44AF-9294-596206B11FC1}.Release|x86.Build.0 = Release|x86
+		{AE26C72E-08FF-40C2-90C4-69A8D8372AF5}.Debug|x86.ActiveCfg = Debug|x86
+		{AE26C72E-08FF-40C2-90C4-69A8D8372AF5}.Debug|x86.Build.0 = Debug|x86
+		{AE26C72E-08FF-40C2-90C4-69A8D8372AF5}.Release|x86.ActiveCfg = Release|x86
+		{AE26C72E-08FF-40C2-90C4-69A8D8372AF5}.Release|x86.Build.0 = Release|x86
+		{FB45D9BE-DC8E-49E9-8BD1-D727AF47871D}.Debug|x86.ActiveCfg = Debug|x86
+		{FB45D9BE-DC8E-49E9-8BD1-D727AF47871D}.Debug|x86.Build.0 = Debug|x86
+		{FB45D9BE-DC8E-49E9-8BD1-D727AF47871D}.Release|x86.ActiveCfg = Release|x86
+		{FB45D9BE-DC8E-49E9-8BD1-D727AF47871D}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{51C142E6-53C4-44AF-9294-596206B11FC1} = {193679C5-6FAA-4E40-BA7C-063CA2C293A2}
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = SourceMeld.UnitTests\SourceMeld.UnitTests.csproj
+	EndGlobalSection
+EndGlobal

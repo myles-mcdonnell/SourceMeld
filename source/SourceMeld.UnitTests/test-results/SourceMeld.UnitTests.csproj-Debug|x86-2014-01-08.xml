@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestRecord xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Results>
+    <UnitTestResult>
+      <TestDate>2014-01-08T09:22:56</TestDate>
+      <Status />
+      <Passed>0</Passed>
+      <Errors>0</Errors>
+      <Failures>1</Failures>
+      <Inconclusive>0</Inconclusive>
+      <NotRunnable>0</NotRunnable>
+      <Skipped>0</Skipped>
+      <Ignored>0</Ignored>
+      <Time />
+      <Message>One or more child tests had errors</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2014-01-08T09:38:00</TestDate>
+      <Status />
+      <Passed>0</Passed>
+      <Errors>0</Errors>
+      <Failures>1</Failures>
+      <Inconclusive>0</Inconclusive>
+      <NotRunnable>0</NotRunnable>
+      <Skipped>0</Skipped>
+      <Ignored>0</Ignored>
+      <Time />
+      <Message>One or more child tests had errors</Message>
+    </UnitTestResult>
+  </Results>
+  <Tests>
+    <TestRecord Name="SourceMeld">
+      <Results>
+        <UnitTestResult>
+          <TestDate>2014-01-08T09:22:56</TestDate>
+          <Status />
+          <Passed>0</Passed>
+          <Errors>0</Errors>
+          <Failures>1</Failures>
+          <Inconclusive>0</Inconclusive>
+          <NotRunnable>0</NotRunnable>
+          <Skipped>0</Skipped>
+          <Ignored>0</Ignored>
+          <Time />
+          <Message>One or more child tests had errors</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2014-01-08T09:38:00</TestDate>
+          <Status />
+          <Passed>0</Passed>
+          <Errors>0</Errors>
+          <Failures>1</Failures>
+          <Inconclusive>0</Inconclusive>
+          <NotRunnable>0</NotRunnable>
+          <Skipped>0</Skipped>
+          <Ignored>0</Ignored>
+          <Time />
+          <Message>One or more child tests had errors</Message>
+        </UnitTestResult>
+      </Results>
+      <Tests>
+        <TestRecord Name="UnitTests">
+          <Results>
+            <UnitTestResult>
+              <TestDate>2014-01-08T09:22:56</TestDate>
+              <Status />
+              <Passed>0</Passed>
+              <Errors>0</Errors>
+              <Failures>1</Failures>
+              <Inconclusive>0</Inconclusive>
+              <NotRunnable>0</NotRunnable>
+              <Skipped>0</Skipped>
+              <Ignored>0</Ignored>
+              <Time />
+              <Message>One or more child tests had errors</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2014-01-08T09:38:00</TestDate>
+              <Status />
+              <Passed>0</Passed>
+              <Errors>0</Errors>
+              <Failures>1</Failures>
+              <Inconclusive>0</Inconclusive>
+              <NotRunnable>0</NotRunnable>
+              <Skipped>0</Skipped>
+              <Ignored>0</Ignored>
+              <Time />
+              <Message>One or more child tests had errors</Message>
+            </UnitTestResult>
+          </Results>
+          <Tests>
+            <TestRecord Name="MelderTests">
+              <Results>
+                <UnitTestResult>
+                  <TestDate>2014-01-08T09:22:56</TestDate>
+                  <Status />
+                  <Passed>0</Passed>
+                  <Errors>0</Errors>
+                  <Failures>1</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>One or more child tests had errors</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2014-01-08T09:38:00</TestDate>
+                  <Status />
+                  <Passed>0</Passed>
+                  <Errors>0</Errors>
+                  <Failures>1</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>One or more child tests had errors</Message>
+                </UnitTestResult>
+              </Results>
+              <Tests>
+                <TestRecord Name="Meld">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2014-01-08T09:13:38</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.01ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-01-08T09:22:56</TestDate>
+                      <Status />
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>1</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Expected 2, but found 4.</Message>
+                      <StackTrace>  at FluentAssertions.Execution.LateBoundTestFramework.Throw (System.String message) [0x00000] in &lt;filename unknown&gt;:0 
+  at FluentAssertions.Execution.AssertionHelper.Throw (System.String message) [0x00000] in &lt;filename unknown&gt;:0 
+  at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure (System.String message) [0x00000] in &lt;filename unknown&gt;:0 
+  at FluentAssertions.Execution.AssertionScope.FailWith (System.String failureMessage, System.Object[] failureArgs) [0x00000] in &lt;filename unknown&gt;:0 
+  at FluentAssertions.Numeric.NumericAssertions`1[System.Int32].Be (Int32 expected, System.String reason, System.Object[] reasonArgs) [0x00000] in &lt;filename unknown&gt;:0 
+  at SourceMeld.UnitTests.MelderTests.Meld () [0x00074] in /home/myles/Git/MM/SourceMeld/source/SourceMeld.UnitTests/MelderTests.cs:25 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in /home/abuild/rpmbuild/BUILD/mono-3.0.4/mcs/class/corlib/System.Reflection/MonoMethod.cs:223 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-01-08T09:23:21</TestDate>
+                      <Status>Failure</Status>
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at MonoDevelop.NUnit.UnitTestResult.CreateFailure (System.String message, System.Exception ex) [0x00017] in /home/abuild/rpmbuild/BUILD/monodevelop-4.0.12/src/addins/NUnit/Services/UnitTestResult.cs:67 
+  at MonoDevelop.NUnit.NUnitAssemblyTestSuite.RunUnitTest (MonoDevelop.NUnit.UnitTest test, System.String suiteName, System.String pathName, System.String testName, MonoDevelop.NUnit.TestContext testContext) [0x00240] in /home/abuild/rpmbuild/BUILD/monodevelop-4.0.12/src/addins/NUnit/Services/NUnitAssemblyTestSuite.cs:440 
+  at MonoDevelop.NUnit.NUnitTestCase.OnRun (MonoDevelop.NUnit.TestContext testContext) [0x0001b] in /home/abuild/rpmbuild/BUILD/monodevelop-4.0.12/src/addins/NUnit/Services/NUnitTestCase.cs:55 
+  at MonoDevelop.NUnit.UnitTest.Run (MonoDevelop.NUnit.TestContext testContext) [0x00020] in /home/abuild/rpmbuild/BUILD/monodevelop-4.0.12/src/addins/NUnit/Services/UnitTest.cs:373 </StackTrace>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-01-08T09:33:22</TestDate>
+                      <Status />
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>1</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Expected 2, but found 8.</Message>
+                      <StackTrace>  at FluentAssertions.Execution.LateBoundTestFramework.Throw (System.String message) [0x00000] in &lt;filename unknown&gt;:0 
+  at FluentAssertions.Execution.AssertionHelper.Throw (System.String message) [0x00000] in &lt;filename unknown&gt;:0 
+  at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure (System.String message) [0x00000] in &lt;filename unknown&gt;:0 
+  at FluentAssertions.Execution.AssertionScope.FailWith (System.String failureMessage, System.Object[] failureArgs) [0x00000] in &lt;filename unknown&gt;:0 
+  at FluentAssertions.Numeric.NumericAssertions`1[System.Int32].Be (Int32 expected, System.String reason, System.Object[] reasonArgs) [0x00000] in &lt;filename unknown&gt;:0 
+  at SourceMeld.UnitTests.MelderTests.Meld () [0x00074] in /home/myles/Git/MM/SourceMeld/source/SourceMeld.UnitTests/MelderTests.cs:25 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in /home/abuild/rpmbuild/BUILD/mono-3.0.4/mcs/class/corlib/System.Reflection/MonoMethod.cs:223 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-01-08T09:35:58</TestDate>
+                      <Status />
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>1</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Expected 2, but found 10.</Message>
+                      <StackTrace>  at FluentAssertions.Execution.LateBoundTestFramework.Throw (System.String message) [0x00000] in &lt;filename unknown&gt;:0 
+  at FluentAssertions.Execution.AssertionHelper.Throw (System.String message) [0x00000] in &lt;filename unknown&gt;:0 
+  at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure (System.String message) [0x00000] in &lt;filename unknown&gt;:0 
+  at FluentAssertions.Execution.AssertionScope.FailWith (System.String failureMessage, System.Object[] failureArgs) [0x00000] in &lt;filename unknown&gt;:0 
+  at FluentAssertions.Numeric.NumericAssertions`1[System.Int32].Be (Int32 expected, System.String reason, System.Object[] reasonArgs) [0x00000] in &lt;filename unknown&gt;:0 
+  at SourceMeld.UnitTests.MelderTests.Meld () [0x00074] in /home/myles/Git/MM/SourceMeld/source/SourceMeld.UnitTests/MelderTests.cs:25 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in /home/abuild/rpmbuild/BUILD/mono-3.0.4/mcs/class/corlib/System.Reflection/MonoMethod.cs:223 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-01-08T09:36:12</TestDate>
+                      <Status />
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>1</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Expected 2, but found 12.</Message>
+                      <StackTrace>  at FluentAssertions.Execution.LateBoundTestFramework.Throw (System.String message) [0x00000] in &lt;filename unknown&gt;:0 
+  at FluentAssertions.Execution.AssertionHelper.Throw (System.String message) [0x00000] in &lt;filename unknown&gt;:0 
+  at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure (System.String message) [0x00000] in &lt;filename unknown&gt;:0 
+  at FluentAssertions.Execution.AssertionScope.FailWith (System.String failureMessage, System.Object[] failureArgs) [0x00000] in &lt;filename unknown&gt;:0 
+  at FluentAssertions.Numeric.NumericAssertions`1[System.Int32].Be (Int32 expected, System.String reason, System.Object[] reasonArgs) [0x00000] in &lt;filename unknown&gt;:0 
+  at SourceMeld.UnitTests.MelderTests.Meld () [0x00074] in /home/myles/Git/MM/SourceMeld/source/SourceMeld.UnitTests/MelderTests.cs:25 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in /home/abuild/rpmbuild/BUILD/mono-3.0.4/mcs/class/corlib/System.Reflection/MonoMethod.cs:223 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-01-08T09:36:56</TestDate>
+                      <Status />
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>1</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Expected 2, but found 14.</Message>
+                      <StackTrace>  at FluentAssertions.Execution.LateBoundTestFramework.Throw (System.String message) [0x00000] in &lt;filename unknown&gt;:0 
+  at FluentAssertions.Execution.AssertionHelper.Throw (System.String message) [0x00000] in &lt;filename unknown&gt;:0 
+  at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure (System.String message) [0x00000] in &lt;filename unknown&gt;:0 
+  at FluentAssertions.Execution.AssertionScope.FailWith (System.String failureMessage, System.Object[] failureArgs) [0x00000] in &lt;filename unknown&gt;:0 
+  at FluentAssertions.Numeric.NumericAssertions`1[System.Int32].Be (Int32 expected, System.String reason, System.Object[] reasonArgs) [0x00000] in &lt;filename unknown&gt;:0 
+  at SourceMeld.UnitTests.MelderTests.Meld () [0x00074] in /home/myles/Git/MM/SourceMeld/source/SourceMeld.UnitTests/MelderTests.cs:25 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in /home/abuild/rpmbuild/BUILD/mono-3.0.4/mcs/class/corlib/System.Reflection/MonoMethod.cs:223 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-01-08T09:38:00</TestDate>
+                      <Status />
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>1</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Expected string to be "two", but "one" differs near "one" (index 0).</Message>
+                      <StackTrace>  at FluentAssertions.Execution.LateBoundTestFramework.Throw (System.String message) [0x00000] in &lt;filename unknown&gt;:0 
+  at FluentAssertions.Execution.AssertionHelper.Throw (System.String message) [0x00000] in &lt;filename unknown&gt;:0 
+  at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure (System.String message) [0x00000] in &lt;filename unknown&gt;:0 
+  at FluentAssertions.Execution.AssertionScope.FailWith (System.String failureMessage, System.Object[] failureArgs) [0x00000] in &lt;filename unknown&gt;:0 
+  at FluentAssertions.Primitives.StringEqualityValidator.ValidateAgainstMismatch () [0x00000] in &lt;filename unknown&gt;:0 
+  at FluentAssertions.Primitives.StringValidator.Validate () [0x00000] in &lt;filename unknown&gt;:0 
+  at FluentAssertions.Primitives.StringAssertions.Be (System.String expected, System.String reason, System.Object[] reasonArgs) [0x00000] in &lt;filename unknown&gt;:0 
+  at SourceMeld.UnitTests.MelderTests.Meld () [0x000b8] in /home/myles/Git/MM/SourceMeld/source/SourceMeld.UnitTests/MelderTests.cs:27 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in /home/abuild/rpmbuild/BUILD/mono-3.0.4/mcs/class/corlib/System.Reflection/MonoMethod.cs:223 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-01-08T09:38:26</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.02ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-01-08T09:38:45</TestDate>
+                      <Status>Failure</Status>
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at MonoDevelop.NUnit.UnitTestResult.CreateFailure (System.String message, System.Exception ex) [0x00017] in /home/abuild/rpmbuild/BUILD/monodevelop-4.0.12/src/addins/NUnit/Services/UnitTestResult.cs:67 
+  at MonoDevelop.NUnit.NUnitAssemblyTestSuite.RunUnitTest (MonoDevelop.NUnit.UnitTest test, System.String suiteName, System.String pathName, System.String testName, MonoDevelop.NUnit.TestContext testContext) [0x00240] in /home/abuild/rpmbuild/BUILD/monodevelop-4.0.12/src/addins/NUnit/Services/NUnitAssemblyTestSuite.cs:440 
+  at MonoDevelop.NUnit.NUnitTestCase.OnRun (MonoDevelop.NUnit.TestContext testContext) [0x0001b] in /home/abuild/rpmbuild/BUILD/monodevelop-4.0.12/src/addins/NUnit/Services/NUnitTestCase.cs:55 
+  at MonoDevelop.NUnit.UnitTest.Run (MonoDevelop.NUnit.TestContext testContext) [0x00020] in /home/abuild/rpmbuild/BUILD/monodevelop-4.0.12/src/addins/NUnit/Services/UnitTest.cs:373 </StackTrace>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-01-08T09:41:31</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 98.66ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-01-08T09:43:15</TestDate>
+                      <Status>Failure</Status>
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at MonoDevelop.NUnit.UnitTestResult.CreateFailure (System.String message, System.Exception ex) [0x00017] in /home/abuild/rpmbuild/BUILD/monodevelop-4.0.12/src/addins/NUnit/Services/UnitTestResult.cs:67 
+  at MonoDevelop.NUnit.NUnitAssemblyTestSuite.RunUnitTest (MonoDevelop.NUnit.UnitTest test, System.String suiteName, System.String pathName, System.String testName, MonoDevelop.NUnit.TestContext testContext) [0x00240] in /home/abuild/rpmbuild/BUILD/monodevelop-4.0.12/src/addins/NUnit/Services/NUnitAssemblyTestSuite.cs:440 
+  at MonoDevelop.NUnit.NUnitTestCase.OnRun (MonoDevelop.NUnit.TestContext testContext) [0x0001b] in /home/abuild/rpmbuild/BUILD/monodevelop-4.0.12/src/addins/NUnit/Services/NUnitTestCase.cs:55 
+  at MonoDevelop.NUnit.UnitTest.Run (MonoDevelop.NUnit.TestContext testContext) [0x00020] in /home/abuild/rpmbuild/BUILD/monodevelop-4.0.12/src/addins/NUnit/Services/UnitTest.cs:373 </StackTrace>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-01-08T09:43:54</TestDate>
+                      <Status />
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>1</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Expected 2, but found 4.</Message>
+                      <StackTrace>  at FluentAssertions.Execution.LateBoundTestFramework.Throw (System.String message) [0x00000] in &lt;filename unknown&gt;:0 
+  at FluentAssertions.Execution.AssertionHelper.Throw (System.String message) [0x00000] in &lt;filename unknown&gt;:0 
+  at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure (System.String message) [0x00000] in &lt;filename unknown&gt;:0 
+  at FluentAssertions.Execution.AssertionScope.FailWith (System.String failureMessage, System.Object[] failureArgs) [0x00000] in &lt;filename unknown&gt;:0 
+  at FluentAssertions.Numeric.NumericAssertions`1[System.Int32].Be (Int32 expected, System.String reason, System.Object[] reasonArgs) [0x00000] in &lt;filename unknown&gt;:0 
+  at SourceMeld.UnitTests.MelderTests.Meld () [0x00074] in /home/myles/Git/MM/SourceMeld/source/SourceMeld.UnitTests/MelderTests.cs:25 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in /home/abuild/rpmbuild/BUILD/mono-3.0.4/mcs/class/corlib/System.Reflection/MonoMethod.cs:223 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-01-08T09:44:05</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.02ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-01-08T09:44:06</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.02ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+              </Tests>
+            </TestRecord>
+          </Tests>
+        </TestRecord>
+      </Tests>
+    </TestRecord>
+  </Tests>
+</TestRecord>
